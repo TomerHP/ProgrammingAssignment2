@@ -2,7 +2,8 @@
 ## For testing: Mat<-matrix(sample(1:2),3,3)  
 ## Temp_Mat<-makeCahseMatrix(mat)
 ## cacheSolve(Temp_Mat) -> we get the result of solve(mat)
-## the second time we use this command: cacheSolve(Temp_Mat)  -> we get "getting cached data" and the result. which proves that there was no exess caclucation
+## the second time we use this command: cacheSolve(Temp_Mat)  ->
+##        we get "getting cached data" and the result. which proves that there was no exess caclucation
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
